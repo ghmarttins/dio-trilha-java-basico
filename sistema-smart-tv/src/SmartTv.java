@@ -6,14 +6,11 @@ public class SmartTv {
     public void mudarCanal(int novoCanal){
         canal = novoCanal;
     }
-
     public void aumentarCanal(){
         canal++;
-
     }
     public void diminuirCanal(){
         canal--;
-
     }
     public void aumentarVolume(){
         System.out.println("Aumentando o volume para: " + volume);
